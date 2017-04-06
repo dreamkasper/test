@@ -1,0 +1,23 @@
+function dofirst(){
+
+
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+context.font = '16pt Arial' ;
+context.fillSyle = '#92290B' ;
+context.strokeStyle = '#92290B';
+context.fillText("Cakes",510,50);
+context.strokeRect(500,20,100,50);
+
+
+
+
+
+
+
+}
+window.addEventListener("load",dofirst,false);
+
+
+
+
